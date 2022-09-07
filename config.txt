@@ -1,0 +1,1 @@
+41	2	2	94028	dataset/syn2_loc25.txt	462	dataset/wsyn2_doc25.txt	0	syn2_tree25.txt	1	0.4 10
