@@ -12,10 +12,12 @@ Usage
 =======================
 
 Step 1: Compile the source code
-make
+	
+	make
 
 Step 2: Run the code
-./Colocation
+
+	./a.out
 
 Step 3: Input Files (Format of those files can be found in Appendix A)
 By default, we have file "config.txt" for configuration
@@ -95,7 +97,7 @@ Explanation of the content in config.txt
 	<dist_thr>
 		: the distance threshold for defining a neighbor set
 
-	(See file config.txt in the folder for example)
+	(See file config.txt for example)
 
 Appendix B. The format of "Location file"
 ============================
@@ -105,9 +107,9 @@ Appendix B. The format of "Location file"
 	<object ID3>, <1st coordinate>, <2nd coordinate>, ..., <d-th coordinate>
 	...
 	<object IDn>, <1st coordinate>, <2nd coordinate>, ..., <d-th coordinate>
-	Note that n = # of objects
+	Note that n = # of objects, d = # of dimensions
 
-(See file running-loc in the folder for example)
+(See file in the dataset folder for example)
 
 Appendix C. The format of "Keyword file"
 =============================
@@ -117,7 +119,7 @@ Appendix C. The format of "Keyword file"
 	...
 	<object IDn>, <keyword>, <weight>
 
-(See file running-doc in the folder for example)
+(See file in the dataset folder for example)
 
 Appendix D. The format of "result.txt"
 =============================
@@ -141,7 +143,7 @@ Appendix D. The format of "result.txt"
 	...
 	<1st feature ID of the k-th size m pattern> <2nd feature ID of the k-th size m pattern> ... <m-th feature ID of the k-th size m pattern><support>
 
-(See file result.txt in the folder for example)
+(See file result.txt for example)
 
 Appendix E. The format of "stat.txt"
 =============================
@@ -164,7 +166,7 @@ Appendix E. The format of "stat.txt"
 	<Filter 4 time>
 	<Verification time>
 
-(See file stat.txt in the folder for example)
+(See file stat.txt for example)
 
 
 
